@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!--모바일로 이동하는 스크립트 시작-->
+    <script type="text/javascript"> var UserAgent = navigator.userAgent; if (UserAgent.match(/iPhone|ipad|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null) { location.href = "m_index.html"; }
+    </script>
+    <!--모바일로 이동하는 스크립트 끝-->
+
+  </head>
+  <body>
+
+<header>
+  <nav>
+  <div class="logo">
+    <img src="img/01_logo.png" alt="로고">
+  </div>
+  <div class="menu">
+    <ul>
+      <li><a href="#">WEB DESIGN</a></li>
+      <li><a href="#">EDITORIAL</a></li>
+      <li><a href="#">CAPSTONE DESIGN</a></li>
+      <li><a href="#">PACKAGE DESIGN</a></li>
+    </ul>
+  </div>
+  </nav>
+</header>
+
+  <section>
+    <!--키비주얼 부문-->
+    <div class="keyvisual">
+      <div class="keyvisual_wrap">
+
+      </div>
+
+    </div>
+
+    <!--프로필 부문-->
+    <div class="profile">
+      <div class="profile_wrap">
+        <div class="profile_01"><img src="img/04_1_txt.png" alt="이름/연락처"></div>
+        <div class="profile_02"><img src="img/04_02_txt.png" alt="education"></div>
+        <div class="profile_03"><img src="img/04_03_txt.png" alt="skill"></div>
+      </div>
+    </div>
+
+    <!--버튼 부문-->
+    <div class="bottom">
+      <div class="bot_tit"><img src="img/05_title.png" alt=""></div>
+      <div class="bot_wrap">
+        <div class="bot_bt"><a href="#"><img src="img/05_bt_01.png" alt=""></a></div>
+        <div class="bot_bt"><a href="#"><img src="img/05_bt_02.png" alt=""></a></div>
+        <div class="bot_bt"><a href="#"><img src="img/05_bt_03.png" alt=""></a></div>
+        <div class="bot_bt"><a href="#"><img src="img/05_bt_04.png" alt=""></a></div>
+      </div>
+      <div class="bot_wrap">
+        <div class="bot_bt"><a href="#"><img src="img/05_bt_05.png" alt=""></a></div>
+        <div class="bot_bt"><a href="#"><img src="img/05_bt_06.png" alt=""></a></div>
+        <div class="bot_bt"><a href="#"><img src="img/05_bt_07.png" alt=""></a></div>
+        <div class="bot_bt"><a href="#"><img src="img/05_bt_08.png" alt=""></a></div>
+      </div>
+    </div>
+  </section>
+
+    <!--푸터 부문-->
+    <footer>
+      <div class="footer_wrap">
+        <span class="footer_logo"><img src="img/06_footer_logo.png" alt="footer"></span>
+        <span class="footer_txt">Copyright 2020 Seunghyun You. All right reserved.<br>e-Mail : tmdgus6401@naver.com</span>
+      </div>
+    </footer>
+
+    <!--스크롤 스크립트-->
+    <script type="text/javascript" src="js/jquery-latest.js"></script>
+    <script>
+      function fnMove(seq){
+        var offset = $("#anchor" + seq).offset();
+        $('html,body').animate({scrollTop : offset.top}, 1200);
+    }
+    </script>
+
+    <!--AOS 스크립트-->
+    <script type="text/javascript" src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,27 @@
+*{margin: 0;}
+html{font-size: 10px;}
+body{font-size: 1rem;}
+a{text-decoration: none;}
+
+header{width: 100%;height: 8rem;background-color: white;}
+header > nav{width: 102.4rem;margin: auto;display: flex;justify-content: space-between;align-items: center;height: 8rem;}
+
+header > nav > .menu{display: inline-block;}
+header > nav > .menu > ul{list-style: none;}
+header > nav > .menu > ul > li{float: left;margin: 0rem 1.7rem;}
+header > nav > .menu > ul > li > a{color: #1D066A;font-family: 'Noto Sans KR', sans-serif;font-size: 1.6rem;font-weight: 500;letter-spacing: -0.3rem;}
+header > nav > .menu > ul > li > a:hover{color: #E22787;}
+
+section > .keyvisual{background-image: url('../img/02_keyvisual_bg.png');height: 70rem;}
+section > .keyvisual > .keyvisual_wrap{margin: auto;width: 102.4rem;height: 70rem;}
+
+
+section > .profile{background-image: url('../img/04_profile.png');height: 138.9rem;}
+section > .profile > .profile_wrap{margin: auto;width: 102.4rem;}
+section > .profile > .profile_wrap > .profile_01{padding-top: 8.2rem;}
+section > .profile > .profile_wrap > .profile_02{margin-top: : 5rem;}
+section > .profile > .profile_wrap > .profile_03{margin-top: : 5rem;}
+section > .profile > .profile_wrap > .profile_04{margin-top: : 5rem;}
+
+section > .bottom{background-color: #E2E2E2;height: 95.4rem;}
+section > .bottom > .bot_tit{margin: auto;text-align: center;width: 102.4rem;padding-top: 2.2rem;}
